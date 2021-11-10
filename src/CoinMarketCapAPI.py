@@ -1,21 +1,19 @@
 '''
 gets crypto quotes form caoinmarketcap
-''
-
+'''
 from requests import Request, Session
-from requests.exceptions import ConnectionError, Timeout, Tooimpori jsonmpmport os
+from requests.exceptions import ConnectionError, Timeout, TooMany
+import json
+import os
 
-class s
-tRcQu:
+class Quotete:
     
-    def 
-
-   __init__nit__(self, search_term):
+    def __init__nit__(self, search_term):
         self.search_term = search_term
 
         
-KEY = os.environ['COINMARKEAPI']
-e_latquote_trypto /= '/1currency/quotes/latest'
+KEY = os.environ['COINMARKETCAP_API']
+quote_latest = '/1/currency/quotes/latest'
 url = 'https://pro-api.coinmarketcap.com' + quote_latest
 
 parameters = {
