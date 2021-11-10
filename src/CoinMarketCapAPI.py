@@ -1,12 +1,12 @@
 '''
 gets crypto quotes form caoinmarketcap
-'''
-from requests import Request, Session
+''from requests import Request, Session
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 from requests.exceptions import ConnectionError, Timeout, TooMany
 import json
-import os
+import osort os
 
-class Quotete:
+css Quotete:
     
     def __init__nit__(self, search_term):
         self.search_term = search_term
