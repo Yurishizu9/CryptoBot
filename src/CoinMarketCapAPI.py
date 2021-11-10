@@ -1,10 +1,11 @@
 '''
 gets crypto quotes form caoinmarketcap
-''from requests import Request, Session
+'''
+from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 from requests.exceptions import ConnectionError, Timeout, TooMany
 import json
-import osort os
+import os
 
 css Quotete:
     
