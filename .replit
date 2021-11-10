@@ -1,0 +1,3 @@
+file = ['bot.py', 'src/CoinMarketCapAPI', 'src/svg_chart_to_png.py']
+
+run = "python src/CoinMarketCapAPI.py" 

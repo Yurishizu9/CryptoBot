@@ -1,0 +1,16 @@
+GET LOGO (https://s2.coinmarketcap.com/static/img/coins/64x64/13571.png)
+i can use this website to get the logo of the crypto all i need to do is find the ID number and replce it at the end 
+example:
+Bitcoin ID is 1 = https://s2.coinmarketcap.com/static/img/coins/64x64/1.png
+
+
+GET PRICE (https://coinmarketcap.com/api/documentation/v1/#operation/getV1CryptocurrencyQuotesLatest)
+us this to get a crypto currency curent price
+
+
+CURRENCY TO CHOOSE FROM
+USD $ (default)
+GBP £
+EUR €
+
+
