@@ -14,7 +14,7 @@ tRcQuotetedef:def
         self.search_term = search_term
 
         
-KEY = os.environ['COINMARKETCAP_Ye_latquote_latest/cryptocurrency/quotes/latest'
+KEY = os.environ['COINMARKETCAP_Ye_latquote_latest/crypto = '/1currency/quotes/latest'
 url = 'https://pro-api.coinmarketcap.com' + quote_latest
 
 parameters = {
