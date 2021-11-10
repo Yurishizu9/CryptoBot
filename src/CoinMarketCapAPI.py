@@ -3,16 +3,18 @@ gets crypto quotes form caoinmarketcap
 '''
 
 from requests import Request, Session
-from requests.exceptions import ConnectionError, Timeout, TooManyRedirimporimport json import oss
+from requests.exceptions import ConnectionError, Timeout, TooMany
+imporimport
+ison impo
+
 os
-tRclass Quotedef:
+tRcQuotetedef:def 
 
    __init__nit__(self, search_term):
         self.search_term = search_term
 
         
-KEY = os.environ['COINMARKETCAP_KEY']KE
-e_latquote_latest/cryptocurrency/quotes/latest'
+KEY = os.environ['COINMARKETCAP_Ye_latquote_latest/cryptocurrency/quotes/latest'
 url = 'https://pro-api.coinmarketcap.com' + quote_latest
 
 parameters = {
